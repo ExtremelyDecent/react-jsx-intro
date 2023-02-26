@@ -2,20 +2,23 @@ function App() {
     return (
         <div>
         <Person
-            name="Homer"
-            age={38}
-            hobbies={["bowling", "watching tv", "drinking beer"]}
+            name="Hank"
+            age={33}
+            hobbies={["climbing", "swimming", "kayaking"]}
         />
-        <Person name="Marge" age={34} hobbies={["painting", "gambling"]} />
-        <Person
-            name="Bart"
-            age={10}
-            hobbies={["skateboarding", "making prank calls"]}
+        <Person name="Ellen" 
+            age={75} 
+            hobbies={["yelling", "complaining"]} 
         />
         <Person
-            name="Lisa"
-            age={8}
-            hobbies={["reading", "saxophone", "eating vegetables"]}
+            name="Alex"
+            age={26}
+            hobbies={["surfing", "snowboarding"]}
+        />
+        <Person
+            name="Jack"
+            age={102}
+            hobbies={["breathing", "groaning", "Tweeting"]}
         />
         </div>
     );
