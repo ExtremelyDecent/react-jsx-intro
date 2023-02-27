@@ -5,4 +5,4 @@ function App() {
             <NamedComponent name="Hank"/>
         </div>
     );
-  }
+}
